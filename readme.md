@@ -1,0 +1,1 @@
+# Laravel Item Manager application

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "D:\\xampp\\htdocs\\itemmanage_index"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "itemmanage_index"
+	}
+}
