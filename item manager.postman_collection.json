@@ -1,0 +1,72 @@
+{
+	"variables": [],
+	"info": {
+		"name": "item manager",
+		"_postman_id": "58f0f636-cfaa-5744-6b3d-ad59bb979aa3",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://itemmanager.test/api/items/1",
+			"request": {
+				"url": {
+					"raw": "http://api.forismatic.com/api/1.0/?method=getQuote&key=457652&format=json&lang=en",
+					"protocol": "http",
+					"host": [
+						"api",
+						"forismatic",
+						"com"
+					],
+					"path": [
+						"api",
+						"1.0",
+						""
+					],
+					"query": [
+						{
+							"key": "method",
+							"value": "getQuote",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "key",
+							"value": "457652",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "format",
+							"value": "json",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "lang",
+							"value": "en",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "_method",
+							"value": "DELETE",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
